@@ -1,0 +1,12 @@
+.screen {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+  padding: 1.5rem 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

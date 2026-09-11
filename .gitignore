@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# The form schema is fetched at runtime; never commit a local copy
+form-schema.json
+
+# Local Claude Code tooling
+.claude/
+
+.env

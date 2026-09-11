@@ -1,0 +1,47 @@
+.field {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #8a8a8a;
+  border-radius: 4px;
+}
+
+.input[aria-invalid='true'] {
+  border-color: #c62828;
+}
+
+.group {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hint,
+.error {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.hint {
+  opacity: 0.75;
+}
+
+.error {
+  color: #c62828;
+}

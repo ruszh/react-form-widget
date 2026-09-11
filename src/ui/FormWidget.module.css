@@ -1,0 +1,35 @@
+.widget {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.header h1,
+.header h2 {
+  margin: 0;
+}
+
+.progress {
+  margin: 0;
+  opacity: 0.75;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.actions button:only-child {
+  margin-left: auto;
+}
